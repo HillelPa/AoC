@@ -1,5 +1,5 @@
 file_name = "input"
-#file_name = "i2"
+
 def translate(line):
     digit_names = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     for num, name in enumerate(digit_names):

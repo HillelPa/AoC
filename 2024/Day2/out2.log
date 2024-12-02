@@ -1,0 +1,200 @@
+--------------------------------
+line: 7 6 4 2 1
+
+checking ['7', '6', '4', '2', '1\n']
+dir : down
+Ok for this line
+nb_safe :  1
+--------------------------------
+line: 1 2 7 8 9
+
+checking ['1', '2', '7', '8', '9\n']
+dir : up
+num_n1 : num_n : 2 : 7
+Step too big
+probleme index:  1
+checking ['1', '7', '8', '9\n']
+dir : up
+num_n1 : num_n : 1 : 7
+Step too big
+checking ['1', '2', '8', '9\n']
+dir : up
+num_n1 : num_n : 2 : 8
+Step too big
+nb_safe :  1
+--------------------------------
+line: 9 7 6 2 1
+
+checking ['9', '7', '6', '2', '1\n']
+dir : down
+num_n1 : num_n : 6 : 2
+Step too big
+probleme index:  2
+checking ['9', '7', '2', '1\n']
+dir : down
+num_n1 : num_n : 7 : 2
+Step too big
+checking ['9', '7', '6', '1\n']
+dir : down
+num_n1 : num_n : 6 : 1
+Step too big
+nb_safe :  1
+--------------------------------
+line: 1 3 2 4 5
+
+checking ['1', '3', '2', '4', '5\n']
+dir : up
+num_n1 : num_n : 3 : 2
+Not the same dir
+probleme index:  1
+checking ['1', '2', '4', '5\n']
+dir : up
+Ok for this line
+nb_safe :  2
+--------------------------------
+line: 8 6 4 4 1
+
+checking ['8', '6', '4', '4', '1\n']
+dir : down
+num_n1 : num_n : 4 : 4
+Same
+probleme index:  2
+checking ['8', '6', '4', '1\n']
+dir : down
+Ok for this line
+nb_safe :  3
+--------------------------------
+line: 1 3 6 7 9
+
+checking ['1', '3', '6', '7', '9\n']
+dir : up
+Ok for this line
+nb_safe :  4
+--------------------------------
+line: 37 36 39 40 41 44 45
+
+checking ['37', '36', '39', '40', '41', '44', '45\n']
+dir : down
+num_n1 : num_n : 36 : 39
+Not the same dir
+probleme index:  1
+checking ['37', '39', '40', '41', '44', '45\n']
+dir : up
+Ok for this line
+nb_safe :  5
+--------------------------------
+line: 2 1 3 6 7 9
+checking ['2', '1', '3', '6', '7', '9']
+dir : down
+num_n1 : num_n : 1 : 3
+Not the same dir
+probleme index:  1
+checking ['2', '3', '6', '7', '9']
+dir : up
+Ok for this line
+nb_safe :  6
+nb_safe final: 6
+--------------------------------
+line: 7 6 4 2 1
+
+checking ['7', '6', '4', '2', '1\n']
+dir : down
+Ok for this line
+nb_safe :  1
+--------------------------------
+line: 1 2 7 8 9
+
+checking ['1', '2', '7', '8', '9\n']
+dir : up
+num_n1 : num_n : 2 : 7
+Step too big
+probleme index:  1
+checking ['2', '7', '8', '9\n']
+dir : up
+num_n1 : num_n : 2 : 7
+Step too big
+checking ['1', '7', '8', '9\n']
+dir : up
+num_n1 : num_n : 1 : 7
+Step too big
+checking ['1', '2', '8', '9\n']
+dir : up
+num_n1 : num_n : 2 : 8
+Step too big
+nb_safe :  1
+--------------------------------
+line: 9 7 6 2 1
+
+checking ['9', '7', '6', '2', '1\n']
+dir : down
+num_n1 : num_n : 6 : 2
+Step too big
+probleme index:  2
+checking ['9', '7', '2', '1\n']
+dir : down
+num_n1 : num_n : 7 : 2
+Step too big
+checking ['9', '7', '6', '1\n']
+dir : down
+num_n1 : num_n : 6 : 1
+Step too big
+nb_safe :  1
+--------------------------------
+line: 1 3 2 4 5
+
+checking ['1', '3', '2', '4', '5\n']
+dir : up
+num_n1 : num_n : 3 : 2
+Not the same dir
+probleme index:  1
+checking ['3', '2', '4', '5\n']
+dir : down
+num_n1 : num_n : 2 : 4
+Not the same dir
+checking ['1', '2', '4', '5\n']
+dir : up
+Ok for this line
+nb_safe :  2
+--------------------------------
+line: 8 6 4 4 1
+
+checking ['8', '6', '4', '4', '1\n']
+dir : down
+num_n1 : num_n : 4 : 4
+Same
+probleme index:  2
+checking ['8', '6', '4', '1\n']
+dir : down
+Ok for this line
+nb_safe :  3
+--------------------------------
+line: 1 3 6 7 9
+
+checking ['1', '3', '6', '7', '9\n']
+dir : up
+Ok for this line
+nb_safe :  4
+--------------------------------
+line: 37 36 39 40 41 44 45
+
+checking ['37', '36', '39', '40', '41', '44', '45\n']
+dir : down
+num_n1 : num_n : 36 : 39
+Not the same dir
+probleme index:  1
+checking ['36', '39', '40', '41', '44', '45\n']
+dir : up
+Ok for this line
+nb_safe :  5
+--------------------------------
+line: 2 1 3 6 7 9
+checking ['2', '1', '3', '6', '7', '9']
+dir : down
+num_n1 : num_n : 1 : 3
+Not the same dir
+probleme index:  1
+checking ['1', '3', '6', '7', '9']
+dir : up
+Ok for this line
+nb_safe :  6
+nb_safe final: 6

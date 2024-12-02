@@ -1,5 +1,5 @@
-#file_name = "input"
-file_name = "input2"
+file_name = "input"
+
 sum = 0
 with open(file_name, 'r') as f:
     for line in f:
