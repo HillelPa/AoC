@@ -19,11 +19,9 @@ def get_power(line):
 
     #remove the game id and remove the spaces
     subsets = line.split(":")[1][1:].replace(" ", "") # line.split(":")[0] : Game X, line.split(":")[1] : 2 red, 2 green; 6 red, 3 green; 2 red, 1 green, 2 blue; 1 red
-    print(subsets)
 
     # Get each subset
     subsets = subsets.split(";")
-    print(subsets)
 
     for subset in subsets:
         colors = subset.split(",")

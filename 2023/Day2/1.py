@@ -19,11 +19,9 @@ def check_game(line):
 
     #remove the game id and remove the spaces
     subsets = line.split(":")[1][1:].replace(" ", "") # line.split(":")[0] : Game X, line.split(":")[1] : 2 red, 2 green; 6 red, 3 green; 2 red, 1 green, 2 blue; 1 red
-    print(subsets)
 
     # Get each subset
     subsets = subsets.split(";")
-    print(subsets)
 
     for subset in subsets:
         colors = subset.split(",")
@@ -33,23 +31,17 @@ def check_game(line):
             
             # RED
             if color[-1] == 'd':
-                print("RED")
                 value = int(color[:-3])
-                print("value :", value)
                 if value > max_red:
                     return 0
 
             elif color[-1] == 'n':
-                print("GREEN")
                 value = int(color[:-5])
-                print("value :", value)
                 if value > max_green:
                     return 0
             
             elif color[-1] == 'e':
-                print("BLUE")
                 value = int(color[:-4])
-                print("value :", value)
                 if value > max_blue:
                     return 0
     return 1
