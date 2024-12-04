@@ -37,7 +37,6 @@ for i in range(1, len(input) - 1):
                 sum += 1
             elif check_4(input, i, j):
                 sum += 1
-            #sum += check_1(input, i, j) + check_2(input, i, j) + check_2(input, i, j) + check_4(input, i, j)
 
 print("Sum: ", sum)
 
