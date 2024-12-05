@@ -63,3 +63,7 @@ time2 = timeit.timeit(lambda: algo2(time_copy, distance_copy), number = 10)
 print("Time for algo1: ", time1)
 print("Time for algo2: ", time2)
 
+# Time for algo1:  77.84958787498181
+# Time for algo2:  0.003191893018083647
+# Now we know
+
