@@ -10,11 +10,12 @@ def check_nums(rules, nums):
     for i in range(len(nums)):
         p1 = 0
         p2 = len(nums)-1
-        while p1 < i and p2 >i:
-            if nums[p1] in rules[nums[i]][1]:
+        while p1 < i or p2 >i:
+
+            if p1<i and nums[p1] in rules[nums[i]][1]:
                 # False bc p1 is supposed to be after
                 return 0, nums[p1], nums[i]
-            if nums[p2] in rules[nums[i]][0]:
+            if p2>i and nums[p2] in rules[nums[i]][0]:
                 # False bc p2 is supposed to be before
                 return 0, nums[i], nums[p2]
             p1 += 1

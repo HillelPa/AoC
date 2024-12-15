@@ -27,12 +27,8 @@ while pos_x in range(0, len(input)-1) and pos_y in range(0, len(input[0])-1):
     seen.add((pos_x, pos_y))
     front = input[pos_x + movements[move][0]][pos_y + movements[move][1]]
     if front == '#':
-        print("obstacle")
-        print("we moved for ", local_sum)
-        local_sum = 0
         move = (move + 1) % 4
     
-    local_sum +=1
     pos_x += movements[move][0]
     pos_y += movements[move][1]
 
