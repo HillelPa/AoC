@@ -1,6 +1,6 @@
 import re
 
-test = True
+test = False
 
 file_name = 'input'
 if test: file_name = 'i2'
